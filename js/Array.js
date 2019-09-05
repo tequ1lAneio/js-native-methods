@@ -67,4 +67,3 @@ Array.prototype.findIndex = function(fn) {
     }
 }
 
-  
