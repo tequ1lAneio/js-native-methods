@@ -15,5 +15,7 @@ const myInstanceof = function(a, b) {
 const myNew = (func, ... args) => {
     let obj = {}
     obj.__proto__ = func.prototype
-    obj.apply(obj, args)
+    return obj.apply(obj, args)
 }
+
+//
